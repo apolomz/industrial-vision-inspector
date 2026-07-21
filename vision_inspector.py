@@ -234,6 +234,6 @@ def inspeccionar_imagen(ruta):
 
 if __name__ == "__main__":
 
-    ruta = "input_images/muestra_buena.jpg"
+    ruta = "input_images/muestra_buena.png"
 
     inspeccionar_imagen(ruta)
