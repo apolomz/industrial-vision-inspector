@@ -1,2 +1,30 @@
-\venv
-venv
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated artifacts (recreate with generate_sample_images.py / main.py)
+input_images/*
+!input_images/.gitkeep
+output_results/*
+!output_results/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/

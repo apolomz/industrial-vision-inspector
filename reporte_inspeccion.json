@@ -1,0 +1,21 @@
+{
+    "archivo_procesado": "muestra_buena.png",
+    "estado_auditoria": "APROBADO",
+    "brillo_promedio_hsv": 128.99,
+    "deteccion_bordes": {
+        "umbral_inferior_canny": 56,
+        "umbral_superior_canny": 113,
+        "porcentaje_píxeles_borde": 4.18
+    },
+    "segmentacion_objetos": {
+        "total_piezas_detectadas": 4,
+        "areas_individuales_pixeles": [
+            75465,
+            82827,
+            76570,
+            67611
+        ],
+        "porcentaje_area_ocupada": 19.23,
+        "area_promedio_pieza_pixeles": 75618.25
+    }
+}
